@@ -8,7 +8,7 @@ function App() {
   const handleSearch = async (code) => {
     setError(''); // Limpiar errores previos
     try {
-      const response = await fetch(`http://localhost:5000/api/products/${code}`);
+      const response = await fetch(`https://piezas-1.onrender.com/api/products/${code}`);
       if (response.ok) {
         const product = await response.json();
         setProduct(product);

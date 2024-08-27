@@ -27,3 +27,10 @@ h3 {
 p {
   margin: 0.5rem 0;
 }
+
+/* Nueva clase para el campo de descripción */
+.product-description {
+  white-space: pre-wrap; /* Respeta los saltos de línea y espacios en blanco */
+  max-width: 600px; /* Limita el ancho máximo del campo de descripción */
+  text-align: left; /* Alinea el texto a la izquierda */
+}

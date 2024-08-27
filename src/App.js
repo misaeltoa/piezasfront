@@ -40,7 +40,7 @@ function App() {
           <h3>Información del Producto</h3>
           <p><strong>Código:</strong> {product.code}</p>
           <p><strong>Nombre:</strong> {product.name}</p>
-          <p><strong>Descripción:</strong> {product.description}</p>
+          <p className="product-description"><strong>Descripción:</strong> {product.description}</p>
         </div>
       )}
     </div>
